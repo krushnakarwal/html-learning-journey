@@ -1,250 +1,201 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!-- SEO & METADATA -->
     <meta charset="UTF-8">
+    <!-- Viewport mapping for cross-screen optimization (Mobile, Desktop, TV) -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="100% Complete HTML Blueprint by Aman Bhaiya & Shradha Didi. Optimized by Krushna Karwal.">
-    <title>My First Page</title> <!-- Root Title from Level 1 -->
+    
+    <!-- Professional IT SEO Tags to match search indexing parameters -->
+    <title>Your Name | IT Student & Aspiring Software Engineer</title>
+    <meta name="description" content="Professional portfolio of an IT student specializing in application architectures, responsive frontend execution, and computational problem-solving.">
+    <meta name="keywords" content="Software Engineer Intern, IT Student Portfolio, Frontend Developer, Responsive HTML Template">
+    <link rel="stylesheet" href="stylesheet.css">
 </head>
 <body>
-    <header>
-       <h1><marquee>Welcome to my website</marquee></h1>
-        <p>Hello Everyone, I am Krushna Karwal</p> <!-- Paragraph from Level 1 -->
-    </header>
 
-    <!-- Comments in HTML -->
-    <!-- This is an HTML Comment (This part of code should not be parsed) -->
+    <!-- SECTION 1: STICKY NAVIGATION HEADER -->
+    
+    
+    
+    <header class="main-header">
+     <div class="logo">
+         <!-- Technical branding asset  -->
+         <a href="home.html"><span>&lt;</span>KrushnaKarwal <span>/&gt;</span></a>
+     </div>
+     <nav class="navbar">
+         <ul>
+             <!-- single page  -->
+             <li><a href="home.html" class="active">Home</a></li>
+             <li><a href="about.html">About</a></li>
+             <li><a href="education.html">Education</a></li>
+             <li><a href="skills.html">Skills</a></li>
+             <li><a href="projects.html">Projects</a></li>
+             <li><a href="contact.html">Contact</a></li>
+         </ul>
+     </nav>
+</header>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
 
-    <hr> <!-- Horizontal Ruler to separate content -->
-
-    <main>
-        <!-- SECTION 1: Text Highlighting & Formatting -->
-        <section>
-            <h2>Helloooo </h2><br>
-            <p><b>Bold Text</b><br>
-            <i>Italic Text</i><br>
-            <u>Underline Text</u></p><br>
-
-            <hr>
-
-            <p><big>Big Text</big><br>
-            <small>Small Text</small></p><br>
-
-            <hr>
+    <!-- SECTION 2: HERO COMPONENT (Primary Entry Point) -->
+    <section id="home" class="hero-section">
+        <div class="hero-content">
+            <h3>Hello, It's Me</h3>
+            <h1>Krushna Karwal</h1>
+            <h3>And I'm an <span class="typing-text">IT Student & Developer</span></h3>
+            <p>I build structured web interfaces, manage relational databases, and configure semantic applications that scale smoothly across mobile layouts and large display ecosystems.</p>
             
-            <!-- Subscript & Superscript -->
-            <p>H<sub>2</sub>O (Subscript)</p><br>
-            <p>A + B<sup>n</sup> (Superscript)</p><br>
+            <!-- Strategic Action Interfaces for Technical HRs -->
+            <div class="action-buttons">
+                <a href="your-resume.pdf" class="btn" download>Download CV</a>
+                <a href="#contact" class="btn btn-alt">Let's Talk</a>
+            </div>
+        </div>
+        <div class="hero-img">
+            <!-- Placeholder for professional headshot or geometric code asset -->
+            <img src="myphoto.jpg" alt="Your Name Professional Headshot">
+        </div>
+    </section>
 
-            <hr>
+    <!-- SECTION 3: ABOUT COMPONENT -->
+    <section id="about" class="about-section">
+        <div class="about-img">
+            <img src="about-graphics.png" alt="System architecture illustration">
+        </div>
+        <div class="about-content">
+            <h2>About <span>Me</span></h2>
+            <h3>Aspiring Software Professional</h3>
+            <p>Currently pursuing my degree in Information Technology, I balance academic computer science theory with hands-on web development. I focus on translating application requirements into cleanly structured code blocks, optimizing components for performance, and managing version control repositories efficiently.</p>
+        </div>
+    </section>
 
-            <!-- Pre Tag -->
-            <pre> 
-                    Hello Everyone............                          
-                    How are you, everything is okeyyy...........
-                                            see you again byyy .............................
-            </pre>
+    <!-- SECTION 4: ACADEMIC EDUCATION COMPONENT -->
+    <section id="education" class="education-section">
+        <h2>My <span>Education</span></h2>
+        
+        <div class="education-timeline">
+            <article class="timeline-item">
+                <span class="date-badge">2023 - 2027</span>
+                <h3>Bachelor of Engineering / Science in IT</h3>
+                <h4>Your College or University Name, Location</h4>
+                <p>Focused core coursework: Data Structures, Object-Oriented System Design, Database Operations, and Web Systems. Maintaining an active academic record focused on foundational computer engineering metrics.</p>
+            </article>
+        </div>
+    </section>
 
-            <hr> 
-
-            <!-- Line Break Tag -->
-            <p>This is a line.<br>This line starts after a break.</p><br>
-        </section>
-
-        <hr>
-
-        <!-- SECTION 2: Links, Images & Attributes -->
-        <section>
-            <h2>2. Links, Images & Attributes</h2>
-            
-            <!-- Anchor Tag with Target -->
-            <p><a href="https://google.com" target="_blank">Google (Opens in new tab)</a></p>
-
-            <!-- Image Tag -->
-            <p>Relative Image Range Rover <br>: <img src="image.png" alt="Luxury SUV Range Rover" width="500" ></p>
-            
-            <!-- Fixed Absolute Link -->
-            <p>Absolute Image Bullet <br>: <img src="https://images.91wheels.com/assets/b_images/gallery/royalenfield/bullet-350/royalenfield-bullet-350-0-1769515350.png?w=700&q=40" alt="Royal Enfield Classic 350 Black" height="500"></p>
-
-            <!-- Clickable Picture -->
-            <p>Clickable Image (White Fortuner Legender):<br> 
-                <a href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsp5atEFxUT6mUVx3YSa40jJFQO-jS823CbdC48hD0Lw&s=10" target="_blank">
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsp5atEFxUT6mUVx3YSa40jJFQO-jS823CbdC48hD0Lw&s=10" alt="White Toyota Fortuner Legender Car" width="500">
-                </a>
-            </p>
-        </section>
-
-        <hr>
-
-        <!-- NEW SECTION: Media Elements (Video, Audio & Iframe) -->
-        <section>
-            <h2>2.5 Multimedia & Embedded Tags (New!)</h2>
-
-            <!-- Video Tag: Local or Direct Video Link with Controls -->
-            <h3>1. Video Element (Screen Recording Vidio)</h3>
-            <video width="560" height="315" controls poster="https://gstatic.com">
-                <source src="recording.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-            </video>
-
-            <!-- Audio Tag: For Background Music or Audio Streams -->
-            <h3>2. Audio Element</h3>
-            <p>Kakan Song : </p>
-            <audio controls>
-                <source src="songs.mp3" type="audio/mpeg">
-                Your browser does not support the audio element.
-            </audio>
-
-            <!-- Iframe Tag: Embedding external web pages, YouTube videos, or Google Maps -->
-            <h3>3. Iframe Element (Embedding HTML Vidio By Apna College On Youtube)</h3>
-            <iframe 
-                 src="https://www.youtube.com/embed/HcOc7P5BMi4?si=Bk0YQHeBwO_fcVYf&amp;controls=0"  title="Apna College" 
-                 width = "1000" 
-    height="600" 
-    style="border:0; border-radius: 8px;" 
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-    referrerpolicy="strict-origin-when-cross-origin" 
-    allowfullscreen></iframe>
-            
-        </section>
-
-        <hr>
-
-        <!-- ==========================================
-             LEVEL 3: PAGE LAYOUT & CONTAINER TAGS
-             ========================================== -->
-        <section>
-            <h2>3. Page Layout & Containers (Level 3)</h2>
-
-            <div id="id1" class="group1">
-                <h3>DIV Container (Block Element)</h3>
-                <p>Div takes full horizontal space available.</p>
+    <!-- SECTION 5: TECHNICAL SKILLS COMPONENT -->
+    <section id="skills" class="skills-section">
+        <h2>Technical <span>Skills</span></h2>
+        
+        <div class="skills-container">
+            <!-- Group A: Client-Side Development Stack -->
+            <div class="skills-box">
+                <h3>Frontend Core</h3>
+                <ul>
+                    <li>HTML5 (Semantic Layout Architectures)</li>
+                    <li>CSS3 (Responsive Media Engineering)</li>
+                    <li>JavaScript (DOM Manipulation basics)</li>
+                </ul>
             </div>
 
-            <div id="id2" class="group1">
-                <p>This is a container where <span style="color: rgb(255, 0, 166);">SPAN</span> is an Inline Element.</p>
+            <!-- Group B: Server & Computational Architecture -->
+            <div class="skills-box">
+                <h3>Core IT Fundamentals</h3>
+                <ul>
+                    <li>Data Structures & Algorithms (DSA)</li>
+                    <li>Object-Oriented Programming (OOPs)</li>
+                    <li>Relational Database Management (SQL / DBMS)</li>
+                </ul>
             </div>
 
-            <!-- Article Tag -->
-            <article>
-                <h4>Article Section</h4>
-                <p>Coming soon: Krushna Karwal to join <strong>Barclays</strong> as a Junior SDE!</p>
+            <!-- Group C: Development Workflows -->
+            <div class="skills-box">
+                <h3>Tools & Environments</h3>
+                <ul>
+                    <li>Git & GitHub (Version Controls)</li>
+                    <li>VS Code IDE</li>
+                    <li>Responsive Testing Interfaces</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 6: PROJECTS SHOWCASE COMPONENT -->
+    <section id="projects" class="projects-section">
+        <h2>Latest <span>Projects</span></h2>
+        
+        <div class="projects-grid">
+            <!-- Project Instance 01 -->
+            <article class="project-card">
+                <img src="portfolio-preview.jpg" alt="Responsive Portfolio System Interface">
+                <div class="project-layer">
+                    <h4>Personal Recruitment Portfolio</h4>
+                    <p><strong>Tech Stack:</strong> Semantic HTML5 / Responsive Viewports</p>
+                    <p>A production-ready portfolio mapped out using programmatic text modules to target specific technical keywords for automated applicant screening trackers.</p>
+                    <a href="https://github.com" target="_blank" class="project-link">View Source Code</a>
+                </div>
             </article>
 
-            <!-- Aside Tag -->
-            <aside>
-                <h4>Aside Content</h4>
-                <p>For content aside main content (like ads or sidebars).</p>
-            </aside>
+            <!-- Project Instance 02 -->
+            <article class="project-card">
+                <img src="database-preview.jpg" alt="Data Management System Interface">
+                <div class="project-layer">
+                    <h4>College Database Interface</h4>
+                    <p><strong>Tech Stack:</strong> HTML / Core SQL Concepts</p>
+                    <p>An educational prototype configured to simulate standard database transactional statements through a clean, multi-screen optimized user interface.</p>
+                    <a href="#" target="_blank" class="project-link">Live Deployment</a>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <!-- SECTION 7: INTERVIEW CALL & CONTACT COMPONENT -->
+    <section id="contact" class="contact-section">
+        <h2>Contact <span>Me</span></h2>
+        <p class="contact-subtitle">Actively evaluating open opportunities for Software Development Internships and entry-level technical configurations.</p>
+        
+        <!-- Quick Verification Data Points for Technical Leads -->
+        <div class="contact-info">
+            <p>📥 Email: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
+            <p>📱 Mobile: +91 XXXXX XXXXX</p>
+        </div>
+
+        <!-- Secure Data Transfer Form Element -->
+        <form action="#" method="POST" class="contact-form">
+            <div class="input-group">
+                
+                <input type="email" name="sender_routing" placeholder="Official Corporate Email" required>
+            </div>
+            <div class="input-group">
+                <input type="text" name="msg_subject" placeholder="Job Profile Designation" required>
+            </div>
+            <textarea name="job_description" cols="30" rows="6" placeholder="Paste the Job Description or explicit recruitment request details here..." required></textarea>
             
-            <!-- Address Tag -->
-            <address>
-                My address is Samratnagar Shrirampur,<br>
-                Ahilyanagar, Maharashtra, India.
-            </address>
+            <button type="submit" class="btn">Send Recruitment Briefing</button>
+        </form>
+    </section>
 
-            <!-- Blockquote Tag -->
-            <blockquote>
-                "HTML is the foundation of all web development."
-            </blockquote>
-
-            <!-- Canvas Tag -->
-            <canvas id="myCanvas" width="200" height="50" style="border:1px solid #000;">
-                Your browser does not support the canvas tag.
-            </canvas>
-        </section>
-
-        <hr>
-
-        <!-- SECTION 4: Advanced Elements -->
-        <section>
-            <h2>4. Advanced Elements (Level Pro)</h2>
-
-            <h3> Lists Data</h3>
-            <h4>Unordered List</h4>
-            <ul>
-                <li>Apple</li>
-                <li>Mango</li>
-            </ul>
-
-            <h4>Ordered List </h4>
-            <ol>
-                <li>Apple</li>
-                <li>Mango</li>
-            </ol>
-
-            <h3> Tables Data</h3>
-            <table>
-                <caption>Student Data</caption>
-                <thead>
-                    <tr>
-                        <th>Name</th>
-                        <th>Roll No</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Krushna</td>
-                        <td>101</td>
-                    </tr>
-                    <tr>
-                        <td colspan="2">Merged Cell using Colspan</td>
-                    </tr>
-                </tbody>
-                <tfoot>
-                    <tr>
-                        <td>Total Students</td>
-                        <td>1</td>
-                    </tr>
-                </tfoot>
-            </table>
-
-            <h3> Interactive Form Element</h3>
-            <form action="/action.java" method="POST">
-                <fieldset>
-                    <legend>Personal Info</legend>
-
-                    <p>
-                        <input type="text" placeholder="Enter Name">
-                    </p>
-
-                    <p>
-                        <label for="id_radio1">Class BCA: </label>
-                        <input type="radio" value="class BCA" name="class" id="id_radio1">
-                        <br>
-                        <label for="id_radio2">Class MCA: </label>
-                        <input type="radio" value="class MCA" name="class" id="id_radio2">
-                    </p>
-
-                    <p>
-                        <label for="id_check1">Accept Terms: </label>
-                        <input type="checkbox" value="class X" name="class" id="id_check1">
-                        <br>
-                        <label for="id_check2">The Future Developer: </label>
-                        <input type="checkbox" value="class XII" name="class" id="id_check2">
-                    </p>
-
-                    <p>
-                        <label for="city">Choose City: </label>
-                        <select name="city" id="city"> 
-                            <option value="Shrirampur">Shrirampur</option>
-                            <option value="Ahilyanagar">Ahilyanagar</option>
-                        </select>
-                    </p>
-
-                    <p>
-                        <button type="submit">Submit Details</button>
-                    </p>
-                </fieldset>
-            </form>
-        </section>
-    </main>
-
-    <hr>
-
-    <footer>
-        <p>&copy; 2026 Krushna Karwal. All rights reserved.</p>
+    <!-- SECTION 8: SYSTEM FOOTER -->
+    <footer class="system-footer">
+        <div class="footer-text">
+            <p>&copy; 2026 Your Name | Configured for Verified IT Recruitment Screenings.</p>
+        </div>
+        <div class="footer-links">
+            <!-- Technical profile anchors -->
+            <a href="https://github.com" target="_blank">GitHub Profile</a> | 
+            <a href="https://linkedin.com" target="_blank">LinkedIn Directory</a>
+        </div>
     </footer>
+ <script src="Script.js"></script>
 </body>
 </html>
